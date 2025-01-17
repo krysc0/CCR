@@ -1,6 +1,12 @@
 # CCR Resources
 * [Intro to CCR course on UBLearns](https://ublearns.buffalo.edu/d2l/le/discovery/view/course/209035)
 
+# Why use the CCR?
+Some reasons you may need to use the CCR in your project
+* You are working with big datasets and require a lot of memory
+* You are training a machine learning model and need a GPU
+* Your work is computationally heavy and your local CPU is insufficient
+
 # Prerequisites
 * You have to be connected to the UB network to access the CCR. If you're on campus, connecting to Eduroam works. If off campus, connect to the [UB VPN via Cisco Secure Client](https://www.buffalo.edu/ubit/service-guides/connecting/vpn/computer.html).
 * The CCR uses LINUX as the operating system. You need to know and use [UNIX commands](https://www.geeksforgeeks.org/linux-commands-cheat-sheet/) in the ssh-agent and in the CCR OnDemand portal. 
@@ -221,6 +227,5 @@ sbatch --help
 ```
 
 To be added:
-* Why use the CCR
 * Creating a python virtual environment to load modules not already on the CCR
 * Multithreading vs Multiprocessing in Python
