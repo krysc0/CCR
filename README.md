@@ -45,6 +45,8 @@ cat ~/.ssh/id_ed25519.pub
 ``` bash
 ssh {CCRusername}@vortex.ccr.buffalo.edu
 ```
+* The very first time you log in you will be told the authenticity of the host can't be ebstablished and asked if you want to continue connecting. Enter `yes` to continue.
+* Each time you want to access this CCR login node you will need to enter the SSH passphrase you created for the key.
 # Transferring Files to the CCR
 There's lots of ways. Choose whatever works best for you. 
 Information can be found [here](https://docs.ccr.buffalo.edu/en/latest/hpc/data-transfer/)
