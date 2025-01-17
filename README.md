@@ -23,7 +23,8 @@ Detailed instructions to complete the steps below can be followed from the [CCR]
 ```bash
 ssh-keygen -t ed25519 -C "{UBIT}@buffalo.edu"
 ```
-* You'll be prompted to create a SSH passphrase. Create something memorable. You'll need to use this passphrase each time to get connceted to the CCR.
+* You will be prompted to enter file in which to save the key. To use the default location, /c/Users/{windows_username}/.ssh/id_ed25519, press `Enter`.
+* You'll be prompted to create a SSH passphrase. Create something memorable. Be careful with spelling. You'll need to use this passphrase each time to get connceted to the CCR.
 2. Add the private SSH key to the SSH agent
 ```bash
 eval "$(ssh-agent -s)"
